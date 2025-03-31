@@ -1,0 +1,69 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.8);
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.navbar a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+    background: #ff5e62;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+}
+.btn:hover {
+    background: #ff9966;
+}
+
+/* Form Container */
+.form-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    text-align: center;
+}
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.form-container .btn {
+    width: 100%;
+}

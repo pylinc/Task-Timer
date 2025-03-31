@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background:  #ff9966;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.timers {
+    margin-top: 20px;
+}
+.timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.timer.active {
+    background: #4CAF50;
+    color: white;
+}
+.timer span {
+    font-size: 20px;
+    font-weight: bold;
+}
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.start { background: #4CAF50; color: white; }
+.stop { background: #f44336; color: white; }
+.delete { background: #555; color: white; }
+.reset { background: #FF9800; color: white; }
